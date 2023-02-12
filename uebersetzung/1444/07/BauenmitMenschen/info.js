@@ -5,7 +5,7 @@ download[0].addEventListener("click", joke, false);
 
 function joke(event) {
   event.preventDefault();
-  const joke = document.getElementById("joke"),
+  let joke = document.getElementById("joke"),
   joke2 = document.getElementById("joke2");
 
     clickCounter++;
@@ -20,6 +20,6 @@ function joke(event) {
       clickCounter = 0;
     }
 
-}
+};
 
 console.log(clickCounter);
