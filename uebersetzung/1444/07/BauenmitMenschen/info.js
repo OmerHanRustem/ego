@@ -1,4 +1,4 @@
-const download = document.getElementsByClassName('mybtn');
+const download = document.getElementsByClassName("mybtn");
 var clickCounter = 0;
 
 download[0].addEventListener("click", joke, false);
