@@ -1,0 +1,176 @@
+body {
+
+  
+  background-color:#3b4252;
+  margin:auto;
+}
+
+.container {
+
+  margin:auto;
+  width:80%;
+  text-align: center;
+  position:relative;
+  height:100vh;
+
+}
+
+svg {
+  text-align: center;
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  height:100%;
+  
+}
+
+
+#hotel-top {
+ 
+  animation: fall-8 8s ease-in infinite;
+  opacity: .5;
+}
+
+
+#left-martini-page {
+
+animation: fall-8 8s ease-in infinite;
+opacity: .5;
+
+        
+}
+
+#top-spa {
+
+  animation: fall-7 7s ease-in infinite;
+  opacity:.75;
+  
+
+}
+
+#chemistry-big {
+
+  animation: fall-12 12s ease-in infinite;
+
+
+}
+
+#comp-big {
+
+  animation: fall-13 13s ease-in infinite;
+  opacity: .5;
+}
+
+#martini-bottom {
+
+  animation: fall-12 12s ease-in infinite;
+  
+  
+
+}
+
+#spa-bottom {
+
+ animation: fall-10 10s ease-in infinite;
+  
+}
+
+#hotel-bottom {
+
+  animation: fall-10 10s ease-in infinite;
+  opacity:.25;
+
+}
+
+#chemistry-little {
+
+  animation: fall-8 8s ease-in infinite;
+ 
+}
+
+#hotel-tiny {
+
+  animation: fall-10 10s ease-in infinite;  
+}
+
+#chemistry-top-right {
+
+  animation: fall-10 10s ease-in infinite;
+  
+}
+
+#comp-little {
+
+  animation: fall-7 7s ease-in infinite;
+
+}
+
+.page-fall2 {
+
+  animation: fall-12 12s ease-in infinite;
+  
+
+
+}
+
+.page-fall3 {
+
+  animation: fall-13 13s ease-in infinite;
+  opacity: .5;
+
+}
+
+@keyframes fall-13 {
+  from{
+    transform: translateY(-700px);
+  }
+  to {
+    transform: translateY(800px)
+  }
+}
+
+@keyframes fall-7 {
+  from{
+    transform: translateY(-700px);
+  }
+  to {
+    transform: translateY(800px)
+  }
+}
+
+@keyframes fall-8 {
+  from{
+    transform: translateY(-700px);
+  }
+  to {
+    transform: translateY(800px)
+  }
+}
+
+@keyframes fall-10 {
+  from{
+    transform: translateY(-700px);
+  }
+  to {
+    transform: translateY(800px)
+  }
+}
+
+@keyframes fall-12 {
+  from{
+    transform: translateY(-700px);
+  }
+  to {
+    transform: translateY(800px)
+  }
+}
+
+h1 {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 35%;
+  color: red;
+  font-size: 80px;
+}
